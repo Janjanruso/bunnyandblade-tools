@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bunnyandblade Tools</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #1a1a1a;
+      background: #ffffff;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+      line-height: 1.7;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      padding: 3px 10px;
+      border-radius: 6px;
+      background: #e8f0fe;
+      color: #1a56db;
+      margin-bottom: 1rem;
+    }
+    h1 { font-size: 28px; font-weight: 600; margin-bottom: 0.75rem; }
+    h2 { font-size: 18px; font-weight: 600; margin-bottom: 0.75rem; }
+    .tagline { font-size: 16px; color: #555; margin-bottom: 2rem; }
+    hr { border: none; border-top: 1px solid #e5e5e5; margin: 2rem 0; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 2rem;
+    }
+    .feature-card {
+      background: #f7f7f7;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    .feature-card .label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+    .feature-card p { font-size: 14px; color: #333; }
+    .privacy-box {
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .privacy-box p { font-size: 14px; color: #555; margin-bottom: 0.75rem; }
+    .privacy-box p:last-child { margin-bottom: 0; }
+    .contact { font-size: 14px; color: #555; margin-bottom: 2rem; }
+    .contact a { color: #1a56db; text-decoration: none; }
+    .disclaimer {
+      font-size: 12px;
+      color: #999;
+      border-top: 1px solid #e5e5e5;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="badge">Etsy API Integration</div>
+  <h1>Bunnyandblade Tools</h1>
+  <p class="tagline">
+    A personal shop management tool for Bunnyandblade — an Etsy shop selling digital
+    graffiti and street art prints. This application uses the Etsy API to automate
+    listing management, order tracking, and shop reporting.
+  </p>
+
+  <hr />
+
+  <h2>What this app does</h2>
+  <div class="features">
+    <div class="feature-card">
+      <div class="label">Listing management</div>
+      <p>Create, update, and manage Etsy listings automatically from a local pipeline.</p>
+    </div>
+    <div class="feature-card">
+      <div class="label">Order tracking</div>
+      <p>Retrieve and monitor shop orders and transaction data in real time.</p>
+    </div>
+    <div class="feature-card">
+      <div class="label">Shop reporting</div>
+      <p>Export shop analytics and listing performance into Google Sheets.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="privacy-box">
+    <h2>Privacy policy</h2>
+    <p>
+      This application is a personal tool used solely by the owner of the Bunnyandblade
+      Etsy shop. It is not a commercial product and is not made available to third parties.
+    </p>
+    <p>
+      Data accessed through the Etsy API (listings, orders, shop details) is used
+      exclusively for managing the Bunnyandblade shop. No data is sold, shared, or stored
+      on third-party servers beyond what is necessary to operate the tool locally.
+    </p>
+    <p>
+      This application does not collect personal information from any Etsy users or buyers.
+      All API access complies with Etsy's API Terms of Use.
+    </p>
+    <p>Last updated: April 2026</p>
+  </div>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>For questions about this application, contact: <a href="mailto:your@email.com">your@email.com</a></p>
+  </div>
+
+  <p class="disclaimer">
+    The term "Etsy" is a trademark of Etsy, Inc. This application uses Etsy's API
+    but is not endorsed or certified by Etsy.
+  </p>
+
+</body>
+</html>
